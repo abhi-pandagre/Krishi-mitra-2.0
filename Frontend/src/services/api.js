@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Change this to your backend URL when deploying
-export const API_URL = "https://krishi-mitra-2-0.vercel.app/";
+export const API_URL = "https://krishi-mitra-2-0.vercel.app/api";
 
 /**
  * Send a crop image + context to the backend for Gemini analysis.
