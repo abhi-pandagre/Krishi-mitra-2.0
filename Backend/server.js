@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 // Allow the React frontend to call this backend during local development.
 // Change FRONTEND_ORIGIN here when deploying.
-const FRONTEND_ORIGIN = "http://localhost:5173";
+const FRONTEND_ORIGIN = "https://krishi-mitra-2-0.vercel.app/";
 
 app.use(
   cors({
